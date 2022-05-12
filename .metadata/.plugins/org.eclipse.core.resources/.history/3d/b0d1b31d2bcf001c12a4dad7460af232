@@ -1,0 +1,5 @@
+package usuarioservice.usuarioservice.controller;
+
+public class UsuarioController {
+
+}

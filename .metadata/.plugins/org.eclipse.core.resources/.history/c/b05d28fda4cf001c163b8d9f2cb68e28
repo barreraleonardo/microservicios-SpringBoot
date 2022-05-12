@@ -1,0 +1,5 @@
+package com.motoservice.entities;
+
+public class Moto {
+
+}

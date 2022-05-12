@@ -1,0 +1,17 @@
+package usuarioservice.usuarioservice.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import usuarioservice.usuarioservice.repositories.UsuarioRepository;
+
+@Service
+public class UsuarioService {
+	
+	@Autowired
+	private UsuarioRepository usuarioRepository;
+	
+	private List<Usuario> getAll(){
+		return usuarioRepository.findAll();
+	}
+}

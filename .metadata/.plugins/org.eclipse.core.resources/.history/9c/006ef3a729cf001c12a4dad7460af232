@@ -1,0 +1,5 @@
+package usuarioservice.usuarioservice.repositories;
+
+public class UsuarioRepository {
+
+}

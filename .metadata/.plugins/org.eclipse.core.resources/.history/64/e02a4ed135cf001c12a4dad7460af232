@@ -1,0 +1,5 @@
+package com.carroservice.repositories;
+
+public class CarroRepository {
+
+}
